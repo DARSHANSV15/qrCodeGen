@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .footer {
+            height: 50%;
+            background-color: rgb(222, 222, 222);
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        .footer * {
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>QR code Generator</h1>
@@ -16,6 +34,14 @@
         <img src="qr_img.png" alt="QRcode" width="250px">
         <a href="qr_img.png" download="">Download QR code</a>
     </div>
+
+    <footer>
+        <div class="footer">
+            <p>Deployed from <a href="https://www.github.com/DARSHANSV15/qrCodeGen-deployed/">github.com/DARSHANSV15</a></p>
+            <p>Made by Darshan S V</p>
+        </div>
+    </footer>
+
 
     <!-- <script>
         let btn = document.getElementById("btn");
