@@ -1,1 +1,3 @@
 # qrCodeGen
+
+###Technology used: NodeJS
