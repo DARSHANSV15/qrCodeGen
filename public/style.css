@@ -39,7 +39,7 @@ form * {
     font-size: 22px;
 }
 
-a {
+#pic a {
     text-decoration: none;
     border: 1px solid black;
     border-radius: 12px;
